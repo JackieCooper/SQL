@@ -1,0 +1,8 @@
+--Create a book list with ratings
+
+CREATE TABLE books (id INTEGER PRIMARY KEY, name TEXT, rating INTEGER);
+
+INSERT INTO books VALUES (1, "Mists of Avalon", 3);
+INSERT INTO books VALUES (2, "Dragonriders of Pern", 1);
+INSERT INTO books VALUES (3, "Cannery Row", 2);
+SELECT * FROM books;
